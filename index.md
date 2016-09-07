@@ -137,9 +137,9 @@ Approach0 is an open-source project hosted on
 And it is open to any brilliant idea.
 
 Notice each time you visit approach0 there will be a
-"random" math question?
-You can contribute your own "quiz conversation" on
-[GitHub](https://github.com/approach0/search-engine/blob/master/demo/web/quiz-list.js) too!
+"random" math question which is called "quiz conversation",
+You can contribute your own quiz conversation on
+[GitHub](https://github.com/approach0/search-engine/blob/master/demo/web/quiz-list.js)!
 
 ##### 2. Improve this page
 Click the upper-right `Edit on GitHub` link to request
@@ -153,4 +153,4 @@ feedback messages to this project on twitter with hashtag
 `#approach0`.
 
 Your participation is a great incentive for Approach0 to keep
-moving forward.
+moving forward!
