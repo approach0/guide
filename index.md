@@ -139,11 +139,11 @@ And it is open to any brilliant idea.
 Notice each time you visit approach0 there will be a
 "random" math question which is called "quiz conversation",
 You can contribute your own quiz conversation on
-[GitHub](https://github.com/approach0/search-engine/blob/master/demo/web/quiz-list.js)!
+[this page](https://github.com/approach0/search-engine/blob/master/demo/web/quiz-list.js).
 
 ##### 2. Improve this page
-Click the upper-right `Edit on GitHub` link to request
-modify this page if you spot some error or share with others
+Click the upper-right `Edit on GitHub` link to request modify this
+page if you spot some error or if you want to share with others
 your tricks on using Approach0.
 
 ##### 3. Send feedbacks
