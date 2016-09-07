@@ -80,7 +80,7 @@ math expression \\(\dfrac a b \\).
 
 * You can edit or delete a math keyword by clicking the `✐ `
 or `× ` icon on the right of the keyword.
-You can also delete (but not edit option) a non-math keyword
+You can also delete (but no edit option) a non-math keyword
 by clicking the `× ` icon on the right of the keyword.
 
 * If you do not get any search result ("No hit found"), try to
