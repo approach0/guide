@@ -27,15 +27,15 @@ is at that time).
 ### How a search query is entered?
 
 #### 1. Non-math keyword
-If you only want to search non-math terms (in a sense that
-they are not math expressions), just type the keyword(s) like
-what you normally do on a typical search engine:
+If you only want to search non-math terms (i.e. normal text),
+just type the keyword(s) like what you normally do on a typical
+search engine:
 
 ![](_static/term-query.gif)
 
 (After you have done a keyword, hit `Enter` to finish
 editing, then hit `Enter` again or click search button to
-actually get search results)
+actually perform search)
 
 #### 2. Math keyword
 To input math keyword is also very intuitive, user does not
