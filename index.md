@@ -4,17 +4,18 @@ better search experience for mathematical Q&A websites.
 This page aims to provide new users a quick tour about
 how to use Approach0 search engine.
 
-### What the search engine actually looks for?
-This search engine only indexes
-[Mathematics StackExchange](http://math.stackexchange.com)
-site right now.
-
+### What is Approach0?
 Approach0 is a math-aware similarity search engine, which
 means you type a query containing one or more "keywords",
 each keyword can be either normal text or a math
 expression. Then the search engine get you search
 results from already indexed posts/threads which
 contains the content you may find relevant to your query.
+
+### What the search engine actually looks for?
+This search engine only indexes
+[Mathematics StackExchange](http://math.stackexchange.com)
+site right now.
 
 Currently it has finished indexing most posts on Math SE site.
 Although newly updated posts may not be renewed in our database
