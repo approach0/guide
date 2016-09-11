@@ -128,7 +128,7 @@ returned in JSON format.
 Approach0 starts from a side-project, although having the
 feeling that this project will be potentially useful, the
 author cannot focus on it with full-time effort.
-Every one is invited to contribute to this project.
+Everyone is invited to contribute to this project.
 Below are some ways you can help to improve Approach0.
 
 ##### 1. Make contribution to this project
