@@ -8,9 +8,9 @@ how to use Approach0 search engine.
 Approach0 is a math-aware similarity search engine, which
 means you type a query containing one or more "keywords",
 each keyword can be either normal text or a math
-expression. Then the search engine get you search
+expression. Then the search engine gets you search
 results from already indexed posts/threads which
-contains the content you may find relevant to your query.
+contain the content you may find relevant to your query.
 
 ### What the search engine actually looks for?
 This search engine only indexes
