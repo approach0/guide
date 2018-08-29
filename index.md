@@ -8,7 +8,7 @@ how to use Approach0 search engine.
 Approach0 is a math-aware similarity search engine, which
 means you type a query containing one or more "keywords",
 each keyword can be either normal text or a math
-expression. Then the search engine gets you search
+expression. Then the search engine gives you search
 results from already indexed posts/threads which
 contain the content you may find relevant to your query.
 
@@ -17,12 +17,9 @@ This search engine only indexes
 [Mathematics StackExchange](http://math.stackexchange.com)
 site right now.
 
-Currently it has finished indexing most posts on Math SE site.
-Although newly updated posts may not be renewed in our database
-immediately due to limited hardware resource we currently have,
-we are trying our best to renew the index on a regular basis,
-usually every week or so (depending on how lazy the maintainer
-is at that time).
+Newly updated posts may not be renewed in our database
+immediately due to the current maintainer being a very
+lazy person most of the time.
 
 ### How a search query is entered?
 
@@ -125,11 +122,6 @@ applications based on our search engine. Search results are
 returned in JSON format.
 
 ### Help Approach0 improve
-Approach0 starts from a side-project, although having the
-feeling that this project will be potentially useful, the
-author cannot focus on it with full-time effort.
-Everyone is invited to contribute to this project.
-Below are some ways you can help to improve Approach0.
 
 ##### 1. Make contribution to this project
 Approach0 is an open-source project hosted on
@@ -142,15 +134,9 @@ You can contribute your own quiz conversation on
 [this page](https://github.com/approach0/search-engine/blob/master/demo/web/quiz-list.js).
 
 ##### 2. Improve this page
-Click the upper-right `Edit on GitHub` link to request modify this
-page if you spot some error or if you want to share with others
-your tricks on using Approach0.
+Click the upper-right `Edit on GitHub` link to improve this guide.
 
 ##### 3. Send feedbacks
-Got any suggestion? Write your thoughts on our GitHub issue
-page. Or, if you are not familiar with GitHub, you can send
-feedback messages to this project on twitter with hashtag
-`#approach0`.
-
-Your participation is a great incentive for Approach0 to keep
-moving forward!
+Any suggestion? Write your feedback on our GitHub issue
+page. You can also send messages to this project on twitter
+with hashtag `#approach0`.
