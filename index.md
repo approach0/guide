@@ -5,9 +5,9 @@ This page aims to provide new users a quick tour about
 how to use Approach0 search engine.
 
 ### What is Math aware search?
-Math-awareness means when you type a query containing one or more "keywords",
+Math-aware search means when you type a query containing one or more "keywords",
 each keyword can be either normal text or a math
-expression. Then the search engine gives you search
+expression. The search engine gives you search
 results from already indexed posts/threads which
 contain the content you may find relevant to your query.
 
