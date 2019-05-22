@@ -16,10 +16,6 @@ This search engine only indexes
 [Mathematics StackExchange](http://math.stackexchange.com)
 site right now.
 
-Newly updated posts may not be renewed in our database
-immediately due to the current maintainer being a very
-lazy person most of the time.
-
 ### How a search query is entered?
 
 #### 1. Non-math keyword
