@@ -1,12 +1,11 @@
 ## Guide for New Users
-Approach0 is a third-party search engine dedicated to provide
+Approach0 is a third-party math-aware search engine dedicated to provide
 better search experience for mathematical Q&A websites.
 This page aims to provide new users a quick tour about
 how to use Approach0 search engine.
 
-### What is Approach0?
-Approach0 is a math-aware similarity search engine, which
-means you type a query containing one or more "keywords",
+### What is Math aware search?
+Math-awareness means when you type a query containing one or more "keywords",
 each keyword can be either normal text or a math
 expression. Then the search engine gives you search
 results from already indexed posts/threads which
