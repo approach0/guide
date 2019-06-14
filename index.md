@@ -12,9 +12,9 @@ results from already indexed posts/threads which
 contain the content you may find relevant to your query.
 
 ### What the search engine actually looks for?
-The current online version only indexes
-[Mathematics StackExchange](http://math.stackexchange.com)
-site right now.
+The current online version is serveing for demonstration purpose,
+with only one math Q&A site being indexed ([Mathematics StackExchange](http://math.stackexchange.com)).
+The indices cover over one million posts on Mathematics StackExchange.
 
 ### How a search query is entered?
 
@@ -131,7 +131,6 @@ You can contribute your own quiz conversation on
 ##### 2. Improve this page
 Click the upper-right `Edit on GitHub` link to improve this guide.
 
-##### 3. Send feedbacks
-Any suggestion? Write your feedback on our GitHub issue
-page. You can also send messages to this project on twitter
-with hashtag `#approach0`.
+##### 3. Contact
+You can contact the author by sending a tweet with hashtag `#approach0`, or leave a message
+in [this chat room](https://chat.stackexchange.com/rooms/46148) on Mathematics StackExchange meta site.
