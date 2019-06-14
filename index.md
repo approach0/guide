@@ -12,7 +12,7 @@ results from already indexed posts/threads which
 contain the content you may find relevant to your query.
 
 ### What the search engine actually looks for?
-This search engine only indexes
+The current online version only indexes
 [Mathematics StackExchange](http://math.stackexchange.com)
 site right now.
 
