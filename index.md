@@ -1,5 +1,5 @@
 ## Guide for New Users
-Approach0 is a math-aware search engine dedicated to provide
+[Approach0](/) is a math-aware search engine dedicated to provide
 better search experience for mathematical Q&A websites.
 This page aims to provide new users a quick tour about
 how to use Approach0 search engine.
