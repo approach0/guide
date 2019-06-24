@@ -9,14 +9,18 @@ extensions = [
 # specify static path 
 html_static_path = ['img']
 
-# import markdown parser 
+# import markdown parser
 from recommonmark.parser import CommonMarkParser
+from recommonmark.transform import AutoStructify
 
 source_parsers = {
 	'.md': CommonMarkParser,
 }
 
 source_suffix = ['.md']
+
+def setup(app):
+	app.add_transform(AutoStructify)
 
 # specify index file name
 master_doc = 'index'
