@@ -68,8 +68,7 @@ Some typical malformed examples:
 	* `a^(1+2+3)` (should be `a^{1+2+3}`)
 	* `sin(x)` (should be `\sin(x)`)
 
-* How to manually enter (without the assistance of "handy pad")
-integrals with both lower and upper bounds?
+* How to enter integrals lower and upper bounds using query box editor?
 	* It can be a little tricky if you are unfamiliar with the query editor:
 	![](_static/intbonds-wrong.gif)
 	* The right way: Use `arrow` key to move cursor to the
