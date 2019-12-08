@@ -70,7 +70,7 @@ Some typical malformed examples:
 
 * How to manually enter (without the assistance of "handy pad")
 integrals with both lower and upper bounds?
-	* This is a little tricky, the wrong way:
+	* It can be a little tricky if you are unfamiliar with the query editor:
 	![](_static/intbonds-wrong.gif)
 	* The right way: Use `arrow` key to move cursor to the
 	rightmost and hit a `^` so it goes to upper bound edit.
