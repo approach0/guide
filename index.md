@@ -32,15 +32,15 @@ Below is an example of inputting math expression \\(\log(x)\\):
 ![](_static/math-query.gif)
 
 You can either type `\log(x)` or `log(x)` directly on search
-box to input \\(\log(x)\\). Although this works, the
+box to input \\(\log(x)\\). Although this would work, the
 recommended way is first type a dollar sign `$` (to indicate
 the next keyword you are entering is a math keyword) followed
 by your math expression.
 
 This is important when you are entering a math expression that
-is hard to tell whether it is truly a math or a regular term.
+is hard to tell by the system whether it is truly a math or a regular text term.
 (e.g. `AI` can be interpreted as a matrix multiplication in
-math or "Artificial Intelligence" in English)
+math or acronym for "Artificial Intelligence" in English)
 
 #### 3. Mixed keywords
 You can mix non-math and math keywords together (in any order)
