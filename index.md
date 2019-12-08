@@ -85,8 +85,8 @@ For example, the above mixed keywords "concave" and
 "\\(f'' < 0\\)" is equivalent to inputting a `concave,
 $f''\lt 0$` in raw query box.
 
-* You can use question mark `?` to make a placeholder when you
-want to do query some formula with parts you are uncertain.
+* You can use question mark `?` to make a placeholder when querying
+some formula with parts you are uncertain.
 For example, if you want to search expression
 \\[dX_t = \ln (1+X_t^2)+ X_t dB_t \\]
 you can also use query
