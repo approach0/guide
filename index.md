@@ -56,12 +56,8 @@ formula keywords and no more than 10 text keywords in one query.
 (such as \\( \infty \\) and \\( \perp \\)).
 In these cases, click `Lookup symbols` under search query box for looking up math symbols.
 
-* The URL displayed on your browser uniquely determines a
-query and your viewing page. So you can show this URL
-to others to refer a query.
-
 * We support copy-paste in query input box. For math keyword,
-paste `a/b` and `$a/b$` into query box both result in the same
+paste a/b and $a/b$ into query box both result in the same
 math expression \\(\dfrac a b \\).
 
 * If you do not get any search result ("No hit found") or get a
