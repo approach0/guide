@@ -68,7 +68,8 @@ Some typical malformed examples:
 	* `a^(1+2+3)` (should be `a^{1+2+3}`)
 	* `sin(x)` (should be `\sin(x)`)
 	* `$ f\left(x\right)\le1\ and\ f'\left(x\right)\le1 $` (never mix text and math in single keyword, if you have to do that, surround text in `\text{}` command). 
-If you still do not get any results, try to reduce the complexity of your math formula(s), and only extract the most representing parts out of it and search again.
+	
+	If you still do not get any results, try to reduce the complexity of your math formula(s), and only extract the most representing parts out of it and search again.
 
 * How to enter integrals lower and upper bounds using query box editor?
 	* It can be a little tricky if you are unfamiliar with the query editor:
