@@ -67,6 +67,7 @@ under search box.
 Some typical malformed examples:
 	* `a^(1+2+3)` (should be `a^{1+2+3}`)
 	* `sin(x)` (should be `\sin(x)`)
+	* `$lim$` (should be `$\lim$`, again, you should add backslash, i.e., `\lim`)
 	* `$ f\left(x\right)\le1\ and\ f'\left(x\right)\le1 $` (never mix text and math in single keyword, if you have to do that, surround text in `\text{}` command). 
 	
 	If you still do not get any results, try to reduce the complexity of your math formula(s), and only extract the most representing parts out of it and search again.
