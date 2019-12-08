@@ -48,33 +48,27 @@ within one query:
 
 ![](_static/mix-query.gif)
 
-One restriction: You are limited to enter less than 5 math
-keywords and less than 21 non-math keywords in one query.
+One restriction: You are limited to enter no more than 2 math
+formula keywords and no more than 10 text keywords in one query.
 
 ### Other tips
-* There are some math symbols that you may find not intuitive or not familiar on how to type directly into query input box
-(such as \\( \infty \\), \\( \Theta \\) and \\( \perp \\)).
-In these cases, click "handy pad" under search box for a number
-of buttons to help you enter math symbols.
+* There are some math symbols that you do not know how to type directly into query input box
+(such as \\( \infty \\) and \\( \perp \\)).
+In these cases, click `Lookup symbols` under search query box for looking up math symbols.
 
 * The URL displayed on your browser uniquely determines a
-query and page you are searching for. So you can show this URL
+query and your viewing page. So you can show this URL
 to others to refer a query.
 
 * We support copy-paste in query input box. For math keyword,
 paste `a/b` and `$a/b$` into query box both result in the same
 math expression \\(\dfrac a b \\).
 
-* You can edit or delete a math keyword by clicking the `✐ `
-or `× ` icon on the right of the keyword.
-You can also delete (but no edit option) a non-math keyword
-by clicking the `× ` icon on the right of the keyword.
-
-* If you do not get any search result ("No hit found"), try to
-reduce the complexity of your math expression a little bit.
-Also, check if your *raw query* is somewhat malformed, by
-clicking the `raw query` link under search box.
-Some typical malformed TeX snippets:
+* If you do not get any search result ("No hit found") or get a
+red-colored box around your inputting math formula. You may have
+typed a malformed math formula. In this case, check if your *raw query*
+is somewhat malformed, by clicking the `raw query` link under search box.
+Some typical malformed examples:
 	* `a^(1+2+3)` (should be `a^{1+2+3}`)
 	* `sin(x)` (should be `\sin(x)`)
 
