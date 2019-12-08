@@ -1,20 +1,15 @@
 ## Guide for New Users
-[Approach0](/) is a math-aware search engine dedicated to provide
-better search experience for mathematical Q&A websites.
+[Approach0](/) is a math-aware search engine.
 This page aims to provide new users a quick tour about
 how to use Approach0 search engine.
 
 ### What is math-aware search?
-Math-aware search means when you type a query containing one or more "keywords",
-each keyword can be either normal text or a math
-expression. The search engine gives you search
-results from already indexed posts/threads which
-contain the content you may find relevant to your query.
+ “Math-aware” means you can add math expression(s) as some of your keywords to have search engine help you find similar expressions and return those documents that you may find relevant to your input. In short, a typical search engine plus math search.
 
 ### What the search engine actually looks for?
 The current online version is serveing for demonstration purpose,
-with only one math Q&A site being indexed ([Mathematics StackExchange](http://math.stackexchange.com)).
-The indices cover over one million posts on Mathematics StackExchange.
+with only partial data of [Mathematics StackExchange](http://math.stackexchange.com) and [ArtOfProblemSolving](https://artofproblemsolving.com/community) being indexed.
+The data covers over one million posts/topics and tens of millions of math formulas.
 
 ### How a search query is entered?
 
