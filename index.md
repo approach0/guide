@@ -62,11 +62,14 @@ math expression \\(\dfrac a b \\).
 
 * If you do not get any search result (when you see "No hit found") or when you see the query box has a
 red-colored box around your inputting math formula, it indicates that you may have
-typed a malformed math formula. In this case, check if your *raw query*
-is somewhat malformed, by clicking the `raw query` link under search box.
+typed a malformed math formula. In this case, double check your *raw query* by clicking the `raw query` link
+under search box.
 Some typical malformed examples:
 	* `a^(1+2+3)` (should be `a^{1+2+3}`)
 	* `sin(x)` (should be `\sin(x)`)
+	* Also, never mix text and math in single keyword, if you have to do that,
+	surround text in `\text{}` command. 
+If you still do not get any results, try to reduce the complexity of your math formula(s), and only extract the most representing parts out of it and search again.
 
 * How to enter integrals lower and upper bounds using query box editor?
 	* It can be a little tricky if you are unfamiliar with the query editor:
