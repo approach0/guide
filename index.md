@@ -52,7 +52,7 @@ One restriction: You are limited to enter no more than 2 math
 formula keywords and no more than 10 text keywords in one query.
 
 ### Other tips
-* There are some math symbols that you do not know how to type directly into query input box
+* If there are some math symbols that you do not know how to type directly into query input box
 (such as \\( \infty \\) and \\( \perp \\)).
 In these cases, click `Lookup symbols` under search query box for looking up math symbols.
 
