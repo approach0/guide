@@ -60,8 +60,8 @@ In these cases, click `Lookup symbols` under search query box for looking up mat
 paste a/b and $a/b$ into query box both result in the same
 math expression \\(\dfrac a b \\).
 
-* If you do not get any search result (when you see "No hit found") or get a
-red-colored box around your inputting math formula. You may have
+* If you do not get any search result (when you see "No hit found") or when you see the query box has a
+red-colored box around your inputting math formula, it indicates that you may have
 typed a malformed math formula. In this case, check if your *raw query*
 is somewhat malformed, by clicking the `raw query` link under search box.
 Some typical malformed examples:
