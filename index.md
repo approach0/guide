@@ -3,17 +3,17 @@
 This page aims to provide new users a quick tour about
 how to use Approach0 search engine.
 
-### What is math-aware search?
+#### What is math-aware search?
  “Math-aware” means you can add math expression(s) as some of your keywords to have search engine help you find similar expressions and return those documents that you may find relevant to your input. In short, a typical search engine plus math search.
 
-### What the search engine actually looks for?
+#### What the search engine actually looks for?
 The current online version is serveing for demonstration purpose,
 with only partial data of [Mathematics StackExchange](http://math.stackexchange.com) and [ArtOfProblemSolving](https://artofproblemsolving.com/community) being indexed.
 The data covers over one million posts/topics and tens of millions of math formulas.
 
-### How a search query is entered?
+#### How a search query is entered?
 
-#### 1. Non-math keyword
+##### 1. Non-math keyword
 If you only want to search non-math terms (i.e. normal text),
 just type the keyword(s) like what you normally do on a typical
 search engine:
@@ -24,7 +24,7 @@ search engine:
 editing, then hit `Enter` again or click search button to
 actually perform search)
 
-#### 2. Math keyword
+##### 2. Math keyword
 To input math keyword is also very intuitive, user does not
 have to know TeX to input a math expression on search box.
 Below is an example of inputting math expression \\(\log(x)\\):
@@ -42,7 +42,7 @@ is hard to tell by the system whether it is truly a math or a regular text term.
 (e.g. `AI` can be interpreted as a matrix multiplication in
 math or acronym for "Artificial Intelligence" in English)
 
-#### 3. Mixed keywords
+##### 3. Mixed keywords
 You can mix non-math and math keywords together (in any order)
 within one query:
 
@@ -51,7 +51,7 @@ within one query:
 One restriction: You are limited to enter no more than 2 math
 formula keywords and no more than 10 text keywords in one query.
 
-### Other tips
+#### Other tips
 * If there are some math symbols that you do not know how to type directly into query input box
 (such as \\( \infty \\) and \\( \perp \\)).
 In these cases, click `Lookup symbols` under search query box for looking up math symbols.
@@ -78,7 +78,7 @@ Some typical malformed examples:
 	![](_static/intbonds-right.gif)
 
 
-### Advanced usage
+#### Advanced usage
 * If you know math-related TeX commands, it is often faster to
 edit the equivalent raw query (separate keywords by commas).
 For example, the above mixed keywords "concave" and
@@ -97,9 +97,9 @@ you can also use query
 $ curl https://approach0.xyz/search/search-relay.php?q=prime
 ```
 
-### Improve this page
+#### Improve this page
 Click the upper-right `Edit on GitHub` link to help improve this guide.
 
-### Contact
+#### Contact
 You can contact the author by sending a tweet with hashtag `#approach0`, or leave a message
 in [this chat room](https://chat.stackexchange.com/rooms/46148) on Mathematics StackExchange meta site.
