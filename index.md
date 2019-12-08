@@ -86,36 +86,21 @@ For example, the above mixed keywords "concave" and
 "\\(f'' < 0\\)" is equivalent to inputting a `concave,
 $f''\lt 0$` in raw query box.
 
-* You can use question mark `?` on our query input box to
-represent a `wildcard` which represents `any math expression
-except a single symbol`.
+* You can use question mark `?` to make a placeholder when you
+want to do query some formula with parts you are uncertain.
 For example, if you want to search expression
 \\[dX_t = \ln (1+X_t^2)+ X_t dB_t \\]
-you can type less by just searching:
+you can also use query
 \\[ ? = \ln (1+X_t^2)+ ? \\]
-In raw query, you can use `\qvar{}` to name wildcards which
-represent different expressions.
-For instance: `$\qvar{x} = \ln (1 + X_t^2) + \qvar{y}$`.
 
-* Our WEB API enables developers to build their own
-applications based on our search engine. Search results are
-returned in JSON format.
+* We expose an open search API for other applications:
+```sh
+$ curl https://approach0.xyz/search/search-relay.php?q=prime
+```
 
-### Help Approach0 improve
+### Improve this page
+Click the upper-right `Edit on GitHub` link to help improve this guide.
 
-##### 1. Make contribution to this project
-Approach0 is an open-source project hosted on
-[Github](https://github.com/approach0).
-And it is open to any brilliant idea.
-
-Notice each time you visit approach0 there will be a
-"random" math question which is called "quiz conversation",
-You can contribute your own quiz conversation on
-[this page](https://github.com/approach0/search-engine/blob/master/demo/web/quiz-list.js).
-
-##### 2. Improve this page
-Click the upper-right `Edit on GitHub` link to improve this guide.
-
-##### 3. Contact
+### Contact
 You can contact the author by sending a tweet with hashtag `#approach0`, or leave a message
 in [this chat room](https://chat.stackexchange.com/rooms/46148) on Mathematics StackExchange meta site.
