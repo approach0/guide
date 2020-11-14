@@ -1,55 +1,48 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 
 # enable MathJax
 extensions = [
     'sphinx.ext.mathjax'
 ]
 
-# specify static path 
-html_static_path = ['img']
+# specify template path
+templates_path = ['_templates']
+
+# specify static path
+html_static_path = ['content/static']
+master_doc = 'content/en/index'
+html_logo = 'content/static/logo.png'
+html_favicon = 'content/static/favicon.ico'
+html_show_copyright = False
 
 # import markdown parser
 from recommonmark.parser import CommonMarkParser
 from recommonmark.transform import AutoStructify
 
 source_parsers = {
-	'.md': CommonMarkParser,
+    '.md': CommonMarkParser,
 }
 
-source_suffix = ['.md']
+source_suffix = ['.md', '.rst']
+templates_path = ['README.md'] # exclude file
+exclude_patterns = ['_build', 'node_modules']
 
 def setup(app):
-	app.add_transform(AutoStructify)
-
-# specify index file name
-master_doc = 'index'
+    app.add_transform(AutoStructify)
 
 # project info
-project = 'User Guide'
-copyright = '2016, Wei Zhong'
-author = 'Wei Zhong'
+import json
+fh = open('./package.json')
+manifest = json.load(fh)
+project = manifest['name']
+html_title = manifest['name']
+copyright = manifest['author']
+author = manifest['author']
 version = ''
 release = ''
-language = None
-html_title = 'Approach0'
+fh.close()
 
-# exclude directory
-exclude_patterns = ['_build']
-
-# syntax highlighting
 pygments_style = 'sphinx'
 
-# project theme
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = ["_themes"]
-
-html_theme_options = {
-	'logo_only': True
-}
-
-# logo
-html_logo = 'logo.png'
-html_favicon = 'favicon.ico'
-
-html_show_copyright = False

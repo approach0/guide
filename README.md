@@ -1,22 +1,15 @@
-## About
-
-Source code for Approach0 search engine user guide (English).
-
-If you spot a mistake or want to contribute to this documentation,
-you are welcome to open a pull request.
-
-## Compile
-If you edited the source locally, you can compile and preview your
-changes (in HTML) by using `sphinx`.
-
-To install sphinx:
+## Setup
+Configure `package.json` file with `name` and `author`, then run:
 ```
 $ sudo pip install sphinx
 $ sudo pip install recommonmark # for Markdown Editing
-```
-
-To compile and preview changes in your default HTML browser:
-```
 $ sphinx-build -b html -d _build/doctrees . _build/html
 $ xdg-open ./_build/html/index.html
 ```
+
+You may also need to edit Github Actions files under `.github` directory.
+
+## How to edit content?
+Documentation content source files are all located at `content` directory.
+
+This is an open source documentation, feel free to open a pull request.
