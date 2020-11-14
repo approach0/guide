@@ -116,5 +116,3 @@ $ rm -f out.ogv
 
 #### Share your thoughts
 Leave a message in [this chat room](https://chat.stackexchange.com/rooms/46148) or tweet with hashtag `#approach0` to share your thoughts or ask any question about this project.
-
-Any feedback will be appreciated, it is in fact the incentive for a side project to keep going.
