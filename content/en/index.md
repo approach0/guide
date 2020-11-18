@@ -1,4 +1,4 @@
-## Guide for New Users
+### Guide for New Users
 Approach Zero ([approach0.xyz](https://approach0.xyz)) is a math-aware search engine.
 This page aims to provide new users a quick tour about
 how to use Approach0 search engine.
@@ -98,6 +98,13 @@ you can also use query
 \\[ ? = \ln (1+X_t^2)+ ? \\]
 
 
+#### Handy tools
+Here are a list of tools I myself find very useful:
+* A good hand-written math [recognition Web tool](https://webdemo.myscript.com/views/math/index.html) by MyScript
+* A photo math recognition [APP](https://mathpix.com/) by MathPix
+* A helpful tutorial to go through [very basics of LaTeX](https://en.wikibooks.org/wiki/LaTeX)
+* A comprehensive documentation on the set of supported [LaTeX for math](http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm) by MathJax.
+
 #### Improve this page
 Click the upper-right `Edit on GitHub` link to help improve this guide.
 
@@ -113,6 +120,9 @@ $ convert tmp/* -layers Optimize out.gif
 $ rm -rf tmp
 $ rm -f out.ogv
 ```
+
+#### Contribute new "keys" to our math symbol keyboard
+Go to [source code](https://github.com/approach0/ui-approach0/blob/master/symbol-keyboard.js), edit and simply send a [pull request](https://opensource.stackexchange.com/questions/352/what-exactly-is-a-pull-request).
 
 #### Share your thoughts
 Leave a message in [this chat room](https://chat.stackexchange.com/rooms/46148) or tweet with hashtag `#approach0` to share your thoughts or ask any question about this project.
