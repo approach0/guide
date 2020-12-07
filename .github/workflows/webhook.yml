@@ -15,7 +15,7 @@ jobs:
     - name: Webhook
       run: |
         # EDIT this URL
-        URL="https://xitizu.com/guide/webhook"
+        URL="https://approach0.xyz/guide/webhook"
 
         SECRET=$(echo "${{ secrets.WEBHOOKSECRET }}")
         echo "Webhook: Sending HTTP-POST to $URL ..."
