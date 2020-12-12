@@ -23,7 +23,7 @@ If you only want to search normal text, just type the keyword(s) like what you n
 
 ##### 2. Math keywords
 Approach Zero query input box comes with an embedded math editor for users to easily edit structrual math expression.
-One needs to enter a dollar sign `$` to invoke the embedded math editor when cursor is focusing on the input box.
+One needs to enter a dollar sign to invoke the embedded math editor when cursor is focusing on the input box.
 When you are done with a math keyword in the embedded math editor, just press enter to "wrap up" the keyword as a "chip".
 
 The following example demonstrates how to input \\( \int_0^1 f(x) dx \\) and query it as the only keyword:
@@ -31,8 +31,9 @@ The following example demonstrates how to input \\( \int_0^1 f(x) dx \\) and que
 ![](../static/math-query.gif)
 
 The embedded math editor can accept many math entity commands such as `\int` for integral or `\log` for logarithm. Actually, one can type `log(x)` without a backslash to input \\(\log(x)\\), but the recommended way is to explicitly type a leading backslash for every math entity command.
+If you are not sure what is the "command" for a math entity, click the left-bottom floating red button to pull out the symbol keyboard to help you lookup and cast them in the query box.
 
-Inside of the embedded math editor, use arrow keys or touch screen to move cursor to desired place, or hit `tab` key to jump around to the next *to-be-edited* place.
+Inside of the embedded math editor, use arrow keys or touch screen to move cursor to desired place, or hit `tab` key to jump to the next *to-be-edited* place.
 
 If user is familiar with *TeX* or MathJaX markup language, one can click the `Raw Query` menu at the bottom of search button to directly input math query in TeX. Remember to wrap **single dollar** signs around all your math keywords.
 
