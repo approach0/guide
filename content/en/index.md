@@ -3,37 +3,36 @@
 This page aims to give new users a quick tour about how to use this search engine.
 
 #### What is math-aware search?
-“Math-aware” means you can add math expression(s) as some of your keywords to have search engine help you find similar expressions and return those documents that you may find relevant to your query. In short, a typical search engine plus math search.
+“Math-aware” means you can add math expression(s) as some of your keywords to have search engine help you find similar expressions and return those documents/topics that you may find relevant to your query. In short, a typical search engine plus math search.
 
 #### What the search engine actually looks for?
-The current index includes [Mathematics StackExchange](http://math.stackexchange.com) and [ArtOfProblemSolving](https://artofproblemsolving.com/community). The dataset has around two million documents with tens of millions of math formulas.
+The current index includes data sources from:
+* [Mathematics StackExchange](http://math.stackexchange.com)
+* [ArtOfProblemSolving](https://artofproblemsolving.com/community)
+
+The dataset has around two million documents with tens of millions of math formulas.
 
 #### How a query is entered?
 
 ##### 1. Non-math keywords
-If you only want to search normal text, just type the keyword(s) like what you normally do on a typical search engine:
+If you only want to search normal text, just type the keyword(s) like what you normally do in a typical search engine:
 
 ![](../static/term-query.gif)
 
 (When you have entered one keyword, hit `Enter` to finish editing, then you need to hit `Enter` again or click search button to perform search)
 
-##### 2. Math keyword
-To input math keyword is also very intuitive, user does not
-have to know TeX to input a math expression on search box.
-Below is an example of inputting math expression \\(\log(x)\\):
+##### 2. Math keywords
+Approach Zero query input box comes with an embedded math editor for users to easily edit structrual expressions.
+One needs to enter a dollar sign `$` to invoke the embedded math editor and then input math. When a math keyword edit finishes, just press enter to "wrap up" the keyword as an expression.
 
 ![](../static/math-query.gif)
 
-One can either type `\log(x)` or `log(x)` directly on search
-box to input \\(\log(x)\\). Although this would work, the
-recommended way is first to type a dollar sign `$` (to indicate
-the next keyword you are entering is a math keyword) followed
-by your math expression.
+The embedded math editor can accept many math entity commands such as `\int` for integral or `\log` for logarithm. Actually, one can type `log(x)` without a backslash to input \\(\log(x)\\), but the recommended way is to explicitly type a leading backslash for every math entity command.
 
-This is important to clarify your query intention when you are entering a math expression
-which is somewhat hard to tell by the system whether it is a math expression or text words.
-(e.g. `AI` can be interpreted as a matrix multiplication in
-math or acronym for "Artificial Intelligence" in English)
+Inside of the embedded math editor, use arrow keys or touch screen to move cursor to desired place, or hit `tab` key to jump to the next to-be-edited place.
+
+If user is familiar with *TeX* or MathJaX markup language, one can click the `Raw Query` menu at the bottom of search button to directly input math query in TeX. Remember to wrap **single dollar** signs around all your math keywords.
+
 
 ##### 3. Mixed keywords
 One can mix non-math and math keywords together (in any order)
@@ -67,13 +66,6 @@ under search box.
 
 	If you still do not get any results, try to reduce the complexity of your math formula(s), and only use what you think  is the most representing parts from it for searching.
 
-* How to enter integrals lower and upper bounds using query box editor?
-	* It can be a little tricky if you are unfamiliar with the query editor:
-	![](../static/intbonds-wrong.gif)
-	* The right way: Use `arrow` key to move cursor to the
-	rightmost and hit a `^` so it goes to upper bound edit.
-	Then hit `tab` key to move cursor to edit the integral body:
-	![](../static/intbonds-right.gif)
 
 
 #### Advanced usage
