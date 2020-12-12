@@ -1,28 +1,21 @@
-### Guide for New Users
-Approach Zero ([approach0.xyz](https://approach0.xyz)) is a math-aware search engine.
-This page aims to provide new users a quick tour about
-how to use Approach0 search engine.
+## Guide for New Users
+[Approach Zero](https://approach0.xyz) is a *math-aware search engine*.
+This page aims to give new users a quick tour about how to use this search engine.
 
 #### What is math-aware search?
- “Math-aware” means you can add math expression(s) as some of your keywords to have search engine help you find similar expressions and return those documents that you may find relevant to your input. In short, a typical search engine plus math search.
+“Math-aware” means you can add math expression(s) as some of your keywords to have search engine help you find similar expressions and return those documents that you may find relevant to your query. In short, a typical search engine plus math search.
 
 #### What the search engine actually looks for?
-The current online version is serving for demonstration purpose,
-with only partial data of [Mathematics StackExchange](http://math.stackexchange.com) and [ArtOfProblemSolving](https://artofproblemsolving.com/community) being indexed.
-However, the current index already covers over one million posts/topics and tens of millions of math formulas.
+The current index includes [Mathematics StackExchange](http://math.stackexchange.com) and [ArtOfProblemSolving](https://artofproblemsolving.com/community). The dataset has around two million documents with tens of millions of math formulas.
 
-#### How a search query is entered?
+#### How a query is entered?
 
-##### 1. Non-math keyword
-If you only want to search non-math terms (i.e. normal text),
-just type the keyword(s) like what you normally do on a typical
-search engine:
+##### 1. Non-math keywords
+If you only want to search normal text, just type the keyword(s) like what you normally do on a typical search engine:
 
 ![](../static/term-query.gif)
 
-(After you have entered one keyword, hit `Enter` to finish
-editing, then hit `Enter` again or click search button to
-perform search)
+(When you have entered one keyword, hit `Enter` to finish editing, then you need to hit `Enter` again or click search button to perform search)
 
 ##### 2. Math keyword
 To input math keyword is also very intuitive, user does not
