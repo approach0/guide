@@ -48,29 +48,18 @@ The following GIF demonstrates how to input a mixed query with a text keyword `c
 One restriction: You are limited to enter no more than 2 math
 formula keywords and no more than 10 text keywords per query.
 
-#### Other tips
-* If there are some math symbols that you do not know how to type,
-use `Lookup symbols` under search query box to try some luck.
+#### Caveats
+* When you copy paste a math expression into query box, it is better to also wrap single dollar signs around TeX expression. Although pasting a/b and $a/b$ both result in the same math expression \\(\dfrac a b \\), having dollar signs surrounded will make it much easier for Approach Zero to recognize it a math expression instead of relying on the `/` symbol to "guess" it is a math expression.
 
-* We support copy-paste in query input box. For math keyword,
-paste a/b and $a/b$ into query box both result in the same
-math expression \\(\dfrac a b \\). The latter is more recommended
-because it is more explicit and less dependent on guessing the type
-of the query based on some indicator symbols (such as `/` sign here).
-
-* If you do not get any search result (when you see "No hit found") or when you see the query box has a
-red-colored box around your inputting math formula, it indicates that you may have
-typed a malformed math formula. In this case, double check your **raw** query by clicking the `raw query` link
-under search box.
-
-	Some typical malformed examples:
+* If you do not get any search result (or "No hit found"), you may have typed a malformed or over complex math formula. In this case, double check your **raw query**. Some of the typical problematic examples:
 	* `a^(1+2+3)` should be `a^{1+2+3}`
 	* `sin(x)` should be `\sin(x)`
 	* `$lim$` should be `$\lim$` or  `\lim` in raw query, again, remember to add backslash for math command in TeX!
 	* `$ f\left(x\right)\le1\ and\ f'\left(x\right)\le1 $` is also a bad query, never mix text and math in a single keyword, if you really want to do so, surround text in `\text{}` command. 
 
-	If you still do not get any results, try to reduce the complexity of your math formula(s), and only use what you think  is the most representing parts from it for searching.
+	If you still do not get any results, try to reduce the complexity of your math formula(s), and only use what you think is the most representing parts from your math formula.
 
+* Avoid using Unicode symbols, use math entity commands instead. For example, do not use `α` or `β`, use `\alpha` and `\beta` TeX commands instead (although the former coding may still work).
 
 
 #### Advanced usage
