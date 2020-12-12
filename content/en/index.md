@@ -35,7 +35,7 @@ If you are not sure what is the "command" for a math entity, click the left-bott
 
 Inside of the embedded math editor, use arrow keys or touch screen to move cursor to desired place, or hit `tab` key to jump to the next *to-be-edited* place.
 
-If user is familiar with *TeX* or MathJaX markup language, one can click the `Raw Query` menu at the bottom of search button to directly input math query in TeX. Remember to wrap **single dollar** signs around all your math keywords.
+If user is familiar with *TeX* or [MathJaX markup language](https://www.mathjax.org/), one can click the `Raw Query` menu at the bottom of search button to directly input math query in TeX. Remember to wrap **single dollar** signs around all your math keywords.
 
 
 ##### 3. Mixed keywords
