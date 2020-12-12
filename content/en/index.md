@@ -39,7 +39,7 @@ If user is familiar with *TeX* or [MathJaX markup language](https://www.mathjax.
 ##### 3. Mixed keywords
 One can mix text and math keywords together within one query.
 Just make sure different types of keywords are wrapped up in separate "chips"
-(this is required for Approach Zero to identify keyword type so it will not be confused by a ambitious keyword like `AI` since it can be interpreted both as matrix multiplication or as an acronym).
+(this is required for Approach Zero to identify keyword type so it will not be confused by an ambitious keyword like `AI` since it can be both interpreted as matrix multiplication or as an acronym).
 
 The following GIF demonstrates how to input a mixed query with a text keyword `concave` and a math keyword \\( f''(x) < 0 \\):
 
