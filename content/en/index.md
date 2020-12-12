@@ -49,7 +49,7 @@ One restriction: You are limited to enter no more than 2 math
 formula keywords and no more than 10 text keywords per query.
 
 #### Caveats
-* When you copy and paste a math expression into query box, it is better to also wrap single dollar signs around TeX expression. Although either pasting `a/b` or `$a/b$` will result in the same math expression \\(\dfrac a b \\), having dollar signs surrounded will make it much easier for Approach Zero to recognize it a math expression instead of relying on the `/` symbol to "guess" it is a math expression.
+* When you copy and paste a math expression into query box, it is better to also wrap single dollar signs around TeX expression. Although either pasting `a/b` or $`a/b`$ will result in the same math expression \\(\dfrac a b \\), having dollar signs surrounded will make it much easier for Approach Zero to recognize it a math expression instead of relying on the `/` symbol to "guess" it is a math expression.
 
 * If you do not get any search result (or "No hit found"), you may have typed a malformed or over complex math formula. In this case, double check your **raw query**. Some of the typical problematic examples:
 	* `a^(1+2+3)` should be `a^{1+2+3}`
