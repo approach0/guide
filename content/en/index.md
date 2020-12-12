@@ -94,7 +94,7 @@ Some useful links I myself find very useful:
 
 ### Feedback
 
-#### Improve This Page
+#### Improve this page
 Click the upper-right `Edit on GitHub` link to help improve this guide.
 
 Side note on how to produce the above GIF clips (I'd better keep it here otherwise I will forget):
@@ -109,8 +109,21 @@ $ convert tmp/* -layers Optimize out.gif
 $ rm -rf tmp out.ogv
 ```
 
-#### Contribute new "keys" to our math symbol keyboard
-Go to [source code](https://github.com/approach0/ui-approach0/blob/master/symbol-keyboard.js), edit and simply send a [pull request](https://opensource.stackexchange.com/questions/352/what-exactly-is-a-pull-request).
+#### Contribute to source code and offer sponsorship
+Approach zero website is served by many "micro services", welcome to make your own [pull request](https://opensource.stackexchange.com/questions/352/what-exactly-is-a-pull-request) to any of [the source code repositories](https://github.com/approach0). Feel feel to
+
+* Contribute to the main webpage:
+	* Add new "keys" to [math symbol keyboard](https://github.com/approach0/ui-approach0/blob/master/symbol-keyboard.js)
+	* Add new ["example queries"](https://github.com/approach0/ui-approach0/blob/master/example-queries.js)
+	* Improve other parts of the [front page](https://github.com/approach0/ui-approach0)
+
+* Add more data source crawlers [here](https://github.com/approach0/a0-crawlers)
+
+* [Sponsor](https://github.com/sponsors/t-k-) this hobby project on Github
+
+* The current search engine core is closed source, contributions to it is thus by invitation.
+
+A list of contributions is maintained in project [documentation](https://approach0.xyz/docs/content/en/contributors.html).
 
 #### Share your thoughts
 Leave a message in [this chat room](https://chat.stackexchange.com/rooms/46148) or tweet with hashtag `#approach0` to share your thoughts and ask any question about this project.
