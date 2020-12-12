@@ -29,7 +29,7 @@ The following example demonstrates how to input \\( \int_0^1 f(x) dx \\) and que
 ![](../static/math-query.gif)
 
 The embedded math editor can accept many math entity commands such as `\int` for integral or `\log` for logarithm. Actually, one can type `log(x)` without a backslash to input \\(\log(x)\\), but the recommended way is to explicitly type a leading backslash for every math entity command.
-If you are not sure what is the "command" for a math entity, click the left-bottom floating red button to pull out the symbol keyboard to help you lookup and cast them in the query box.
+If you are not sure what is the "command" for a math entity, click the left-bottom floating red button to pull out the symbol keyboard to help you lookup a math entity and cast it into the query box.
 
 Inside of the embedded math editor, use arrow keys or touch screen to move cursor to desired place, or hit `tab` key to jump to the next *to-be-edited* place.
 
