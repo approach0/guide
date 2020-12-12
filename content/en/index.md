@@ -41,7 +41,7 @@ One can mix text and math keywords together within one query.
 Just make sure different types of keywords are wrapped up in separate "chips"
 (this is required for Approach Zero to identify keyword type so it will not be confused by a ambitious keyword like `AI` since it can be interpreted both as matrix multiplication or as an acronym).
 
-The following GIF demonstrates how to input a mixed query with a text keyword `concave` and a math keyword `\\( f''(x) < 0 \\)`:
+The following GIF demonstrates how to input a mixed query with a text keyword `concave` and a math keyword \\( f''(x) < 0 \\):
 
 ![](../static/mix-query.gif)
 
