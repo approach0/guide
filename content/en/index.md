@@ -62,6 +62,8 @@ Here are some of the typical mistakes:
 
 * Avoid using Unicode math symbols, use TeX commands instead. For example, do not use `α` or `β`, use `\alpha` and `\beta` instead (although the former coding may still work).
 
+* Approach Zero differentiates between `\left|...\right|` and `|....|`. So if you could not find relevant result using one way, try another way around ([the reason](https://math.meta.stackexchange.com/questions/32799/how-to-search-for-duplicate-of-this-classic-complex-analysis-question#comment148)). On the other hand, `\left(...\right)` or `\left{...right}` etc. are treated the same as `(...)` or `{...}`. In the latter case, the shape of the bracket already indicates whether it is left or right bracket.
+
 
 ### Advanced Usage
 * If user is familiar with *TeX* or [MathJaX markup language](https://www.mathjax.org/), one can click the `Raw Query` menu at the bottom of search button to directly input math query in TeX. Remember to wrap **single dollar** signs around all your math keywords.
