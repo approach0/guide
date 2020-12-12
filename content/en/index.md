@@ -1,4 +1,5 @@
 ## Guide for New Users
+
 [Approach Zero](https://approach0.xyz) is a *math-aware search engine*.
 This page aims to give new users a quick tour about how to use this search engine.
 
@@ -17,7 +18,7 @@ The dataset has around two million documents with tens of millions of math formu
 #### Text keywords
 If you only want to search normal text, just type the keyword(s) like what you normally do in a typical search engine:
 
-![](../static/term-query.gif)
+![](https://cdn.jsdelivr.net/gh/approach0/guide@master/content/static/term-query.gif)
 
 (When you have entered one keyword, hit `Enter` to finish editing, then you need to hit `Enter` again or click search button to perform search)
 
@@ -28,7 +29,7 @@ When you are done with a math keyword in the embedded math editor, just press en
 
 The following example demonstrates how to input \\( \int_0^1 f(x) dx \\) and query it as the only keyword:
 
-![](../static/math-query.gif)
+![](https://cdn.jsdelivr.net/gh/approach0/guide@master/content/static/math-query.gif)
 
 The embedded math editor can accept many math entity commands such as `\int` for integral or `\log` for logarithm. Actually, one can type `log(x)` without a backslash to input \\(\log(x)\\), but the recommended way is to explicitly type a leading backslash for every math entity command.
 If you are not sure what is the "command" for a math entity, click the left-bottom floating red button to pull out the symbol keyboard to help you lookup a math entity and cast it into the query box.
@@ -42,7 +43,7 @@ Just make sure different types of keywords are wrapped up in separate "chips"
 
 The following GIF demonstrates how to input a mixed query with a text keyword `concave` and a math keyword \\( f''(x) < 0 \\):
 
-![](../static/mix-query.gif)
+![](https://cdn.jsdelivr.net/gh/approach0/guide@master/content/static/mix-query.gif)
 
 One restriction: You are limited to enter no more than 2 math
 formula keywords and no more than 10 text keywords per query.
