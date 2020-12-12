@@ -93,6 +93,7 @@ Here are a list of tools I myself find very useful:
 * A photo math recognition [APP](https://mathpix.com/) by MathPix
 * A helpful tutorial to go through [very basics of LaTeX](https://en.wikibooks.org/wiki/LaTeX)
 * A comprehensive documentation on the set of supported [LaTeX for math](http://www.onemathematicalcat.org/MathJaxDocumentation/TeXSyntax.htm) by MathJax.
+* A [less lengthy list](http://docs.mathjax.org/en/latest/input/tex/macros/index.html) of supported TeX/LaTeX commands in MathJax.
 
 #### Improve this page
 Click the upper-right `Edit on GitHub` link to help improve this guide.
