@@ -59,7 +59,7 @@ formula keywords and no more than 10 text keywords per query.
 
 	If you still do not get any results, try to reduce the complexity of your math formula(s), and only use what you think is the most representing parts from your math formula.
 
-* Avoid using Unicode symbols, use math entity commands instead. For example, do not use `α` or `β`, use `\alpha` and `\beta` TeX commands instead (although the former coding may still work).
+* Avoid using Unicode symbols, use math entity commands instead, for example, do not use `α` or `β`, use `\alpha` and `\beta` instead (although the former coding may still work).
 
 
 #### Advanced usage
