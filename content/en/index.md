@@ -109,16 +109,15 @@ Here are a list of tools I myself find very useful:
 Click the upper-right `Edit on GitHub` link to help improve this guide.
 
 Side note on how to produce the above GIF clips (I'd better keep it here otherwise I will forget):
-On Linux platform, one can use `xwininfo` to locate a window ID and use `recordmydesktop` for recording specified window:
+On Linux platform, one can use `xwininfo` to locate a window ID and use `recordmydesktop` to record specified window, for example:
 ```sh
-$ recordmydesktop --windowid 0x26000b6
+$ recordmydesktop --windowid 0x3408f8c --height 750 --width 400 -y 150 -x 50
 ```
 use `mplayer` to generate JPEG files from recorded video, and then invoke `convert` to output GIF clips:
 ```sh
 $ mplayer -ao null ./out.ogv  -vo jpeg:outdir=tmp
 $ convert tmp/* -layers Optimize out.gif
-$ rm -rf tmp
-$ rm -f out.ogv
+$ rm -rf tmp out.ogv
 ```
 
 #### Contribute new "keys" to our math symbol keyboard
