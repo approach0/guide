@@ -31,7 +31,7 @@ The following example demonstrates how to input \\( \int_0^1 f(x) dx \\):
 
 The embedded math editor can accept many math entity commands such as `\int` for integral or `\log` for logarithm. Actually, one can type `log(x)` without a backslash to input \\(\log(x)\\), but the recommended way is to explicitly type a leading backslash for every math entity command.
 
-Inside of the embedded math editor, use arrow keys or touch screen to move cursor to desired place, or hit `tab` key to jump to the next to-be-edited place.
+Inside of the embedded math editor, use arrow keys or touch screen to move cursor to desired place, or hit `tab` key to jump around to the next *to-be-edited* place.
 
 If user is familiar with *TeX* or MathJaX markup language, one can click the `Raw Query` menu at the bottom of search button to directly input math query in TeX. Remember to wrap **single dollar** signs around all your math keywords.
 
