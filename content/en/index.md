@@ -22,7 +22,7 @@ If you only want to search normal text, just type the keyword(s) like what you n
 (When you have entered one keyword, hit `Enter` to finish editing, then you need to hit `Enter` again or click search button to perform search)
 
 ##### 2. Math keywords
-Approach Zero query input box comes with an embedded math editor for users to easily edit structrual math expression.
+Approach Zero query input box comes with [an embedded math editor](https://github.com/approach0/fork-mathquill) for users to easily edit structrual math expression.
 One needs to enter a dollar sign to invoke the embedded math editor when cursor is focusing on the input box.
 When you are done with a math keyword in the embedded math editor, just press enter to "wrap up" the keyword as a "chip".
 
