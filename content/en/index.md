@@ -6,9 +6,7 @@ This page aims to give new users a quick tour about how to use this search engin
 “Math-aware” means you can add math expression(s) as some of your keywords to have search engine help you find similar expressions and return those documents/topics that you may find relevant to your query. In short, a typical search engine plus math search.
 
 #### What the search engine actually looks for?
-The current index includes data sources from:
-* [Mathematics StackExchange](http://math.stackexchange.com)
-* [ArtOfProblemSolving](https://artofproblemsolving.com/community)
+The current index includes data sources from [Mathematics StackExchange](http://math.stackexchange.com) and [ArtOfProblemSolving](https://artofproblemsolving.com/community).
 
 The dataset has around two million documents with tens of millions of math formulas.
 
@@ -23,7 +21,7 @@ If you only want to search normal text, just type the keyword(s) like what you n
 
 ##### 2. Math keywords
 Approach Zero query input box comes with [an embedded math editor](https://github.com/approach0/fork-mathquill) for users to easily edit structrual math expression.
-One needs to enter a dollar sign to invoke the embedded math editor when cursor is focusing on the input box.
+One just needs to enter a dollar sign to invoke the embedded math editor when cursor is focusing on the input box.
 When you are done with a math keyword in the embedded math editor, just press enter to "wrap up" the keyword as a "chip".
 
 The following example demonstrates how to input \\( \int_0^1 f(x) dx \\) and query it as the only keyword:
