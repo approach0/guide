@@ -110,7 +110,7 @@ $ rm -rf tmp out.ogv
 ```
 
 #### Contribute to source code / offer sponsorship
-Approach zero website is served by many "micro services", welcome to make your own [pull request](https://opensource.stackexchange.com/questions/352/what-exactly-is-a-pull-request) to any of [the source code repositories](https://github.com/approach0). Feel feel to
+Approach Zero website is served by many "micro services", welcome to make your own [pull request](https://opensource.stackexchange.com/questions/352/what-exactly-is-a-pull-request) to any of [the source code repositories](https://github.com/approach0). Feel feel to
 
 * Contribute to the main webpage:
 	* Add new "keys" to [math symbol keyboard](https://github.com/approach0/ui-approach0/blob/master/symbol-keyboard.js)
