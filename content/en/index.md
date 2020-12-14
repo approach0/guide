@@ -121,7 +121,7 @@ Approach Zero website is served by many "micro services", welcome to make your o
 
 * [Sponsor](https://github.com/sponsors/t-k-) this hobby project on Github
 
-* The current search engine core is closed source, contributions to it is thus by invitation.
+* The current search engine core is closed source, send me request to be invited.
 
 A list of contributions is maintained in project [documentation](https://approach0.xyz/docs/content/en/contributors.html).
 
