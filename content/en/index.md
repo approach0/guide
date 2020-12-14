@@ -123,7 +123,7 @@ Approach Zero website is served by many "micro services", welcome to make your o
 
 * The current search engine core is closed source, send me request to be invited.
 
-A list of contributions is maintained in project [documentation](https://approach0.xyz/docs/content/en/contributors.html).
+A list of contributors is maintained in project [documentation](https://approach0.xyz/docs/content/en/contributors.html).
 
 #### Share your thoughts
 Leave a message in [this chat room](https://chat.stackexchange.com/rooms/46148) or tweet with hashtag `#approach0` to share your thoughts and ask any question about this project.
