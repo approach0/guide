@@ -119,7 +119,7 @@ Approach Zero website is served by many "micro services", welcome to make your o
 
 * Add more data source crawlers [here](https://github.com/approach0/a0-crawlers)
 
-* [Sponsor](https://github.com/sponsors/t-k-) this hobby project on Github
+* [Sponsor](https://github.com/sponsors/w32zhong) this hobby project on Github
 
 * The current search engine core is closed source, send me request to be invited.
 
